@@ -1,12 +1,12 @@
 <div align="center">
   <!-- Waving Header Banner in Custom Oceanic Teal Palette -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=031716,032F30,0A7075,0C969C,6BA3BE&height=230&section=header&text=Aditya%20Panigrahi%20✨&fontSize=48&fontAlignY=36&desc=Full-Stack%20Engineer%20%7C%20Creator%20of%20CozyDesk%20🛋️%20%7C%20CS%20Undergrad&descAlignY=62&descAlign=50&fontColor=E8F6F8" width="100%" alt="Aditya Panigrahi - Oceanic Teal Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=230&section=header&text=Aditya%20Panigrahi%20✨&fontSize=48&fontAlignY=36&desc=Full-Stack%20Engineer%20%7C%20Creator%20of%20CozyDesk%20🛋️%20%7C%20CS%20Undergrad&descAlignY=62&descAlign=50&fontColor=E8F6F8" width="100%" alt="Aditya Panigrahi - Oceanic Teal Banner" />
 
   <br/>
 
-  <!-- Animated Typing Banner in Vibrant Teal -->
+  <!-- Animated Typing Banner in Vibrant Teal (Properly URL-encoded to guarantee loading) -->
   <a href="https://aditya060406.github.io">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3000&pause=1000&color=0C969C&center=true&vCenter=true&multiline=false&width=600&height=45&lines=Building+delightful+full-stack+experiences+🚀;Creator+of+CozyDesk+—+Your+Cozy+Workspace+🛋️✨;Smart+India+Hackathon+Finalist+🏆;C%2B%2B+Problem+Solver+on+LeetCode+⚡;Turning+ideas+%26+coffee+into+clean+code+☕🌊" alt="Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3200&pause=1000&color=0C969C&center=true&vCenter=true&width=650&height=45&lines=Building+delightful+full-stack+web+applications%3BCreator+of+CozyDesk+%E2%80%94+Workspace+Productivity+Suite%3BSmart+India+Hackathon+%28SIH%29+Finalist%3BAlgorithmic+Problem+Solving+in+C%2B%2B+on+LeetCode%3BTurning+ideas+into+clean%2C+scalable+software" alt="Aditya's Typing Banner" />
   </a>
 
   <br/><br/>
@@ -99,5 +99,5 @@ Hey there, friend! 👋 I'm **Aditya Panigrahi**, a Computer Science undergradua
 
 <div align="center">
   <!-- Waving Footer Banner in Oceanic Teal Palette -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=031716,032F30,0A7075,0C969C,6BA3BE&height=130&section=footer&text=Have%20a%20cozy%20day!%20🐾✨&fontSize=22&fontAlignY=65&desc=Oceanic%20Teal%20Theme%20%7C%20Built%20with%20%F0%9F%A9%B5&descAlignY=82&descAlign=50&fontColor=E8F6F8" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=130&section=footer&text=Have%20a%20cozy%20day!%20🐾✨&fontSize=22&fontAlignY=65&desc=Oceanic%20Teal%20Theme%20%7C%20Built%20with%20%F0%9F%A9%B5&descAlignY=82&descAlign=50&fontColor=E8F6F8" width="100%" alt="Footer Banner" />
 </div>
