@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Waving Header Banner in Custom Oceanic Teal Palette -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=230&section=header&text=Aditya%20Panigrahi%20✨&fontSize=48&fontAlignY=36&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20CS%20Undergrad&descAlignY=62&descAlign=50&fontColor=E8F6F8" width="100%" alt="Aditya Panigrahi - Oceanic Teal Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=230&section=header&text=Aditya%20Panigrahi&fontSize=48&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20CS%20Undergrad&descAlignY=62&descAlign=50&fontColor=E8F6F8" width="100%" alt="Aditya Panigrahi - Oceanic Teal Banner" />
 
   <br/>
 
@@ -11,7 +11,7 @@
 
   <br/><br/>
 
-  <!-- Quick-Link Badges in Custom Palette -->
+  <!-- Quick-Link Badges in Custom Oceanic Palette -->
   <a href="https://aditya060406.github.io" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-0C969C?style=for-the-badge&logo=googlechrome&logoColor=031716&labelColor=6BA3BE" alt="Portfolio" />
   </a>
@@ -32,7 +32,7 @@
 </div>
 
 > <div align="center">
->   <i>"Turning complex logic into scalable, elegant systems."</i> ☕🌊✨
+>   <i>"Turning complex logic into scalable, elegant systems."</i> 🌊☕✨
 > </div>
 
 <br/>
@@ -65,13 +65,17 @@
 ## 🛠️ Technical Arsenal
 
 <div align="center">
+  <!-- Skill Icons Strip -->
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,ts,js,react,html,css,tailwind,nodejs,express,django,flask,postgres,redis,sqlite,prisma,docker,git&perline=10" alt="Tech Stack Icons" />
+
+  <br/><br/>
 
 | Category | Technologies & Tools |
 | :--- | :--- |
 | **Languages** | <img src="https://img.shields.io/badge/C-0C969C?style=for-the-badge&logo=c&logoColor=031716" alt="C" /> <img src="https://img.shields.io/badge/C++-6BA3BE?style=for-the-badge&logo=c%2B%2B&logoColor=031716" alt="C++" /> <img src="https://img.shields.io/badge/Python-274D60?style=for-the-badge&logo=python&logoColor=E8F6F8" alt="Python" /> <img src="https://img.shields.io/badge/TypeScript-0C969C?style=for-the-badge&logo=typescript&logoColor=031716" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-6BA3BE?style=for-the-badge&logo=javascript&logoColor=031716" alt="JavaScript" /> |
 | **Frontend** | <img src="https://img.shields.io/badge/React-0C969C?style=for-the-badge&logo=react&logoColor=031716" alt="React" /> <img src="https://img.shields.io/badge/HTML5-274D60?style=for-the-badge&logo=html5&logoColor=E8F6F8" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-6BA3BE?style=for-the-badge&logo=css3&logoColor=031716" alt="CSS3" /> <img src="https://img.shields.io/badge/Tailwind_CSS-0A7075?style=for-the-badge&logo=tailwindcss&logoColor=E8F6F8" alt="Tailwind CSS" /> |
 | **Backend** | <img src="https://img.shields.io/badge/Node.js-0A7075?style=for-the-badge&logo=nodedotjs&logoColor=E8F6F8" alt="Node.js" /> <img src="https://img.shields.io/badge/Express-274D60?style=for-the-badge&logo=express&logoColor=E8F6F8" alt="Express" /> <img src="https://img.shields.io/badge/Django-0A7075?style=for-the-badge&logo=django&logoColor=E8F6F8" alt="Django" /> <img src="https://img.shields.io/badge/Flask-6BA3BE?style=for-the-badge&logo=flask&logoColor=031716" alt="Flask" /> |
-| **Databases & ORM** | <img src="https://img.shields.io/badge/PostgreSQL-0C969C?style=for-the-badge&logo=postgresql&logoColor=031716" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Redis-274D60?style=for-the-badge&logo=redis&logoColor=E8F6F8" alt="Redis" /> <img src="https://img.shields.io/badge/SQLite-6BA3BE?style=for-the-badge&logo=sqlite&logoColor=031716" alt="SQLite" /> <img src="https://img.shields.io/badge/Prisma-0A7075?style=for-the-badge&logo=prisma&logoColor=E8F6F8" alt="Prisma" /> |
+| **Databases & DevOps** | <img src="https://img.shields.io/badge/PostgreSQL-0C969C?style=for-the-badge&logo=postgresql&logoColor=031716" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Redis-274D60?style=for-the-badge&logo=redis&logoColor=E8F6F8" alt="Redis" /> <img src="https://img.shields.io/badge/SQLite-6BA3BE?style=for-the-badge&logo=sqlite&logoColor=031716" alt="SQLite" /> <img src="https://img.shields.io/badge/Prisma-0A7075?style=for-the-badge&logo=prisma&logoColor=E8F6F8" alt="Prisma" /> <img src="https://img.shields.io/badge/Docker-274D60?style=for-the-badge&logo=docker&logoColor=E8F6F8" alt="Docker" /> <img src="https://img.shields.io/badge/Git-0A7075?style=for-the-badge&logo=git&logoColor=E8F6F8" alt="Git" /> |
 
 </div>
 
@@ -101,7 +105,7 @@
       </td>
       <td width="50%" align="center">
         <a href="https://leetcode.com/u/aditya-panigrahi/">
-          <img src="https://leetcard.jacoblin.cool/aditya-panigrahi?theme=dark&font=Space%20Grotesk" width="100%" alt="LeetCode Card" />
+          <img src="https://leetcard.jacoblin.cool/aditya-panigrahi?theme=dark&font=Plus%20Jakarta%20Sans&border=1&radius=12" width="100%" alt="LeetCode Card" />
         </a>
       </td>
     </tr>
@@ -119,5 +123,5 @@
 
 <div align="center">
   <!-- Waving Footer Banner in Oceanic Teal Palette -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=130&section=footer&text=Let's%20build%20something%20exceptional!%20🚀&fontSize=22&fontAlignY=65&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer&descAlignY=82&descAlign=50&fontColor=E8F6F8" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=130&section=footer&text=Let%27s%20Build%20Something%20Exceptional!&fontSize=22&fontAlignY=65&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer&descAlignY=82&descAlign=50&fontColor=E8F6F8" width="100%" alt="Footer Banner" />
 </div>
