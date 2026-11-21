@@ -4,7 +4,7 @@
 
   <br/>
 
-  <!-- Animated Typing Banner in Vibrant Teal (Properly URL-encoded to guarantee loading) -->
+  <!-- Animated Typing Banner in Vibrant Teal -->
   <a href="https://aditya060406.github.io">
     <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3200&pause=1000&color=0C969C&center=true&vCenter=true&width=650&height=45&lines=Building+scalable%2C+high-performance+web+applications%3BCrafting+clean%2C+maintainable+%26+modern+architectures%3BPassionate+about+Data+Structures+%26+Algorithms+in+C%2B%2B%3BTransforming+ideas+into+elegant%2C+scalable+software%3BConstantly+learning%2C+exploring+%26+building+new+systems" alt="Aditya's Typing Banner" />
   </a>
@@ -39,13 +39,26 @@
 
 ## 🌊 About Me
 
-Hey there! 👋 I'm **Aditya Panigrahi**, a Computer Science undergraduate and Software Engineer dedicated to crafting robust, high-performance applications and clean architectures.
-
-- 🚀 **Full-Stack Engineering**: Developing responsive, end-to-end web applications with modern frontend frameworks and scalable backend services.
-- ⚡ **Algorithmic Problem Solving**: Dedicated C/C++ problem solver actively practicing Data Structures & Algorithms on [LeetCode](https://leetcode.com/u/aditya-panigrahi/).
-- 🛠️ **System Architecture**: Designing clean REST APIs, relational schemas, caching mechanisms, and modular software designs.
-- 💡 **Continuous Builder**: Passionate about software craftsmanship—frequently engineering, refining, and releasing new projects across the stack.
-- 🎓 **Academic Journey**: Computer Science undergraduate exploring distributed systems, low-level efficiency, and modern developer tooling.
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 Core Engineering</h3>
+      <ul>
+        <li><b>Full-Stack Engineering</b>: Building responsive web apps with modern frontends and robust, scalable backend microservices.</li>
+        <li><b>System Architecture</b>: Designing clean REST APIs, relational schemas, caching mechanisms, and modular services.</li>
+        <li><b>Continuous Delivery</b>: Frequently designing, developing, and shipping new software solutions and developer tools.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ Algorithmic Focus</h3>
+      <ul>
+        <li><b>Problem Solving</b>: Dedicated C/C++ problem solver actively mastering Data Structures & Algorithms on <a href="https://leetcode.com/u/aditya-panigrahi/">LeetCode</a>.</li>
+        <li><b>Performance First</b>: Focusing on memory efficiency, algorithmic complexity, and low-latency execution.</li>
+        <li><b>Academic Exploration</b>: CS undergraduate diving into distributed computing, operating systems, and modern web engines.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -64,7 +77,7 @@ Hey there! 👋 I'm **Aditya Panigrahi**, a Computer Science undergraduate and S
 
 <br/>
 
-## 📊 Analytics & Problem Solving
+## 📊 Analytics & Coding Activity
 
 <div align="center">
   <table border="0" width="100%">
@@ -93,6 +106,13 @@ Hey there! 👋 I'm **Aditya Panigrahi**, a Computer Science undergraduate and S
       </td>
     </tr>
   </table>
+
+  <br/>
+
+  <!-- Interactive Activity Graph -->
+  <a href="https://github.com/Aditya060406">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aditya060406&bg_color=031716&color=0C969C&line=6BA3BE&point=E8F6F8&area=true&hide_border=false&border_color=0A7075" width="100%" alt="Aditya's GitHub Activity Graph" />
+  </a>
 </div>
 
 <br/>
