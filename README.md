@@ -29,54 +29,48 @@
   </a>
 
   <br/><br/>
-</div>
 
-> <div align="center">
->   <i>"Turning complex logic into scalable, elegant systems."</i> 🌊☕✨
-> </div>
+  <p><i>"Turning complex logic into scalable, elegant systems."</i> 🌊☕✨</p>
+</div>
 
 <br/>
 
 ## 🌊 About Me
 
-<table border="0" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🚀 Core Engineering</h3>
-      <ul>
-        <li><b>Full-Stack Engineering</b>: Building responsive web apps with modern frontends and robust, scalable backend microservices.</li>
-        <li><b>System Architecture</b>: Designing clean REST APIs, relational schemas, caching mechanisms, and modular services.</li>
-        <li><b>Continuous Delivery</b>: Frequently designing, developing, and shipping new software solutions and developer tools.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ Algorithmic Focus</h3>
-      <ul>
-        <li><b>Problem Solving</b>: Dedicated C/C++ problem solver actively mastering Data Structures & Algorithms on <a href="https://leetcode.com/u/aditya-panigrahi/">LeetCode</a>.</li>
-        <li><b>Performance First</b>: Focusing on memory efficiency, algorithmic complexity, and low-latency execution.</li>
-        <li><b>Academic Exploration</b>: CS undergraduate diving into distributed computing, operating systems, and modern web engines.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### 🚀 Core Engineering
+* **Full-Stack Engineering**: Building responsive web applications with modern frontends and robust, scalable backend services.
+* **System Architecture**: Designing clean REST APIs, relational schemas, caching layers, and modular architectures.
+* **Continuous Delivery**: Frequently designing, building, and deploying new software solutions and developer tools.
+
+### ⚡ Algorithmic Problem Solving
+* **Data Structures & Algorithms**: Dedicated C/C++ problem solver actively practicing algorithmic problem solving on [LeetCode](https://leetcode.com/u/aditya-panigrahi/).
+* **Performance First**: Focusing on memory efficiency, algorithmic complexity, and low-latency execution.
+* **Computer Science Foundation**: Undergraduate diving into operating systems, distributed concepts, and modern software design.
 
 <br/>
 
 ## 🛠️ Technical Arsenal
 
 <div align="center">
-  <!-- Skill Icons Strip -->
+  <!-- Skill Icons Strip (Borderless) -->
   <img src="https://skillicons.dev/icons?i=c,cpp,py,ts,js,react,html,css,tailwind,nodejs,express,django,flask,postgres,redis,sqlite,prisma,docker,git&perline=10" alt="Tech Stack Icons" />
 
   <br/><br/>
 
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Languages** | <img src="https://img.shields.io/badge/C-0C969C?style=for-the-badge&logo=c&logoColor=031716" alt="C" /> <img src="https://img.shields.io/badge/C++-6BA3BE?style=for-the-badge&logo=c%2B%2B&logoColor=031716" alt="C++" /> <img src="https://img.shields.io/badge/Python-274D60?style=for-the-badge&logo=python&logoColor=E8F6F8" alt="Python" /> <img src="https://img.shields.io/badge/TypeScript-0C969C?style=for-the-badge&logo=typescript&logoColor=031716" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-6BA3BE?style=for-the-badge&logo=javascript&logoColor=031716" alt="JavaScript" /> |
-| **Frontend** | <img src="https://img.shields.io/badge/React-0C969C?style=for-the-badge&logo=react&logoColor=031716" alt="React" /> <img src="https://img.shields.io/badge/HTML5-274D60?style=for-the-badge&logo=html5&logoColor=E8F6F8" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-6BA3BE?style=for-the-badge&logo=css3&logoColor=031716" alt="CSS3" /> <img src="https://img.shields.io/badge/Tailwind_CSS-0A7075?style=for-the-badge&logo=tailwindcss&logoColor=E8F6F8" alt="Tailwind CSS" /> |
-| **Backend** | <img src="https://img.shields.io/badge/Node.js-0A7075?style=for-the-badge&logo=nodedotjs&logoColor=E8F6F8" alt="Node.js" /> <img src="https://img.shields.io/badge/Express-274D60?style=for-the-badge&logo=express&logoColor=E8F6F8" alt="Express" /> <img src="https://img.shields.io/badge/Django-0A7075?style=for-the-badge&logo=django&logoColor=E8F6F8" alt="Django" /> <img src="https://img.shields.io/badge/Flask-6BA3BE?style=for-the-badge&logo=flask&logoColor=031716" alt="Flask" /> |
-| **Databases & DevOps** | <img src="https://img.shields.io/badge/PostgreSQL-0C969C?style=for-the-badge&logo=postgresql&logoColor=031716" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Redis-274D60?style=for-the-badge&logo=redis&logoColor=E8F6F8" alt="Redis" /> <img src="https://img.shields.io/badge/SQLite-6BA3BE?style=for-the-badge&logo=sqlite&logoColor=031716" alt="SQLite" /> <img src="https://img.shields.io/badge/Prisma-0A7075?style=for-the-badge&logo=prisma&logoColor=E8F6F8" alt="Prisma" /> <img src="https://img.shields.io/badge/Docker-274D60?style=for-the-badge&logo=docker&logoColor=E8F6F8" alt="Docker" /> <img src="https://img.shields.io/badge/Git-0A7075?style=for-the-badge&logo=git&logoColor=E8F6F8" alt="Git" /> |
-
+  <p>
+    <img src="https://img.shields.io/badge/C-0C969C?style=for-the-badge&logo=c&logoColor=031716" alt="C" />
+    <img src="https://img.shields.io/badge/C++-6BA3BE?style=for-the-badge&logo=c%2B%2B&logoColor=031716" alt="C++" />
+    <img src="https://img.shields.io/badge/Python-274D60?style=for-the-badge&logo=python&logoColor=E8F6F8" alt="Python" />
+    <img src="https://img.shields.io/badge/TypeScript-0C969C?style=for-the-badge&logo=typescript&logoColor=031716" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/JavaScript-6BA3BE?style=for-the-badge&logo=javascript&logoColor=031716" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/React-0C969C?style=for-the-badge&logo=react&logoColor=031716" alt="React" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-0A7075?style=for-the-badge&logo=tailwindcss&logoColor=E8F6F8" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Node.js-0A7075?style=for-the-badge&logo=nodedotjs&logoColor=E8F6F8" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Express-274D60?style=for-the-badge&logo=express&logoColor=E8F6F8" alt="Express" />
+    <img src="https://img.shields.io/badge/PostgreSQL-0C969C?style=for-the-badge&logo=postgresql&logoColor=031716" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/Redis-274D60?style=for-the-badge&logo=redis&logoColor=E8F6F8" alt="Redis" />
+    <img src="https://img.shields.io/badge/Prisma-0A7075?style=for-the-badge&logo=prisma&logoColor=E8F6F8" alt="Prisma" />
+  </p>
 </div>
 
 <br/>
@@ -84,39 +78,31 @@
 ## 📊 Analytics & Coding Activity
 
 <div align="center">
-  <table border="0" width="100%">
-    <tr>
-      <td width="50%" align="center">
-        <a href="https://github.com/Aditya060406">
-          <img src="https://github-readme-stats.vercel.app/api?username=Aditya060406&show_icons=true&hide_border=false&bg_color=031716&title_color=0C969C&icon_color=6BA3BE&text_color=E8F6F8&border_color=0A7075" width="100%" alt="GitHub Stats" />
-        </a>
-      </td>
-      <td width="50%" align="center">
-        <a href="https://github.com/Aditya060406">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya060406&layout=compact&hide_border=false&bg_color=031716&title_color=0C969C&text_color=E8F6F8&border_color=0A7075" width="100%" alt="Top Languages" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center">
-        <a href="https://github.com/Aditya060406">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aditya060406&hide_border=false&background=031716&border=0A7075&stroke=0C969C&ring=0C969C&fire=6BA3BE&currStreakNum=E8F6F8&currStreakLabel=0C969C" width="100%" alt="Streak Stats" />
-        </a>
-      </td>
-      <td width="50%" align="center">
-        <a href="https://leetcode.com/u/aditya-panigrahi/">
-          <img src="https://leetcard.jacoblin.cool/aditya-panigrahi?theme=dark&font=Plus%20Jakarta%20Sans&border=1&radius=12" width="100%" alt="LeetCode Card" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <!-- Completely Borderless Stats Cards -->
+  <p align="center">
+    <a href="https://github.com/Aditya060406">
+      <img src="https://github-readme-stats.vercel.app/api?username=Aditya060406&show_icons=true&hide_border=true&bg_color=031716&title_color=0C969C&icon_color=6BA3BE&text_color=E8F6F8" width="49%" alt="GitHub Stats" />
+    </a>
+    <a href="https://github.com/Aditya060406">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya060406&layout=compact&hide_border=true&bg_color=031716&title_color=0C969C&text_color=E8F6F8" width="49%" alt="Top Languages" />
+    </a>
+  </p>
 
-  <br/>
+  <p align="center">
+    <a href="https://github.com/Aditya060406">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aditya060406&hide_border=true&background=031716&stroke=0C969C&ring=0C969C&fire=6BA3BE&currStreakNum=E8F6F8&currStreakLabel=0C969C" width="49%" alt="Streak Stats" />
+    </a>
+    <a href="https://leetcode.com/u/aditya-panigrahi/">
+      <img src="https://leetcard.jacoblin.cool/aditya-panigrahi?theme=dark&font=Plus%20Jakarta%20Sans&border=0&radius=16" width="49%" alt="LeetCode Card" />
+    </a>
+  </p>
 
-  <!-- Interactive Activity Graph -->
-  <a href="https://github.com/Aditya060406">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aditya060406&bg_color=031716&color=0C969C&line=6BA3BE&point=E8F6F8&area=true&hide_border=false&border_color=0A7075" width="100%" alt="Aditya's GitHub Activity Graph" />
-  </a>
+  <!-- Borderless Full-Width Activity Graph -->
+  <p align="center">
+    <a href="https://github.com/Aditya060406">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aditya060406&bg_color=031716&color=0C969C&line=6BA3BE&point=E8F6F8&area=true&hide_border=true" width="100%" alt="Aditya's GitHub Activity Graph" />
+    </a>
+  </p>
 </div>
 
 <br/>
