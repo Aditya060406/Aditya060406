@@ -1,12 +1,12 @@
 <div align="center">
   <!-- Waving Header Banner in Custom Oceanic Teal Palette -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=230&section=header&text=Aditya%20Panigrahi%20✨&fontSize=48&fontAlignY=36&desc=Full-Stack%20Engineer%20%7C%20Creator%20of%20CozyDesk%20🛋️%20%7C%20CS%20Undergrad&descAlignY=62&descAlign=50&fontColor=E8F6F8" width="100%" alt="Aditya Panigrahi - Oceanic Teal Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=230&section=header&text=Aditya%20Panigrahi%20✨&fontSize=48&fontAlignY=36&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20CS%20Undergrad&descAlignY=62&descAlign=50&fontColor=E8F6F8" width="100%" alt="Aditya Panigrahi - Oceanic Teal Banner" />
 
   <br/>
 
   <!-- Animated Typing Banner in Vibrant Teal (Properly URL-encoded to guarantee loading) -->
   <a href="https://aditya060406.github.io">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3200&pause=1000&color=0C969C&center=true&vCenter=true&width=650&height=45&lines=Building+delightful+full-stack+web+applications%3BCreator+of+CozyDesk+%E2%80%94+Workspace+Productivity+Suite%3BSmart+India+Hackathon+%28SIH%29+Finalist%3BAlgorithmic+Problem+Solving+in+C%2B%2B+on+LeetCode%3BTurning+ideas+into+clean%2C+scalable+software" alt="Aditya's Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3200&pause=1000&color=0C969C&center=true&vCenter=true&width=650&height=45&lines=Building+scalable%2C+high-performance+web+applications%3BCrafting+clean%2C+maintainable+%26+modern+architectures%3BPassionate+about+Data+Structures+%26+Algorithms+in+C%2B%2B%3BTransforming+ideas+into+elegant%2C+scalable+software%3BConstantly+learning%2C+exploring+%26+building+new+systems" alt="Aditya's Typing Banner" />
   </a>
 
   <br/><br/>
@@ -32,20 +32,20 @@
 </div>
 
 > <div align="center">
->   <i>"Turning complex logic into elegant systems, one cozy commit at a time."</i> ☕🌊✨
+>   <i>"Turning complex logic into scalable, elegant systems."</i> ☕🌊✨
 > </div>
 
 <br/>
 
 ## 🌊 About Me
 
-Hey there, friend! 👋 I'm **Aditya Panigrahi**, a Computer Science undergraduate and Full-Stack Developer on a mission to build software that is as performant as it is pleasant to use.
+Hey there! 👋 I'm **Aditya Panigrahi**, a Computer Science undergraduate and Software Engineer dedicated to crafting robust, high-performance applications and clean architectures.
 
-- 🛋️ **Creator of [CozyDesk](https://github.com/Aditya060406/CozyDesk)**: An aesthetic, modular desktop workspace organizer and productivity command center with customizable widgets, lofi vibes, and focus tools.
-- 🏆 **Smart India Hackathon (SIH) Finalist**: Designed and engineered an **AI Content Transformation Engine** combining Multimodal AI + OCR to transform unstructured academic notes and lectures into interactive knowledge assets.
-- ⚡ **Systems & Algorithmic Problem Solving**: Dedicated C/C++ problem solver actively training Data Structures & Algorithms on [LeetCode](https://leetcode.com/u/aditya-panigrahi/).
-- 🚀 **Full-Stack Craftsmanship**: Designing seamless web experiences with React, TypeScript, Node.js, and PostgreSQL, focusing on scalable architectures and clean code.
-- ☕ **Vibe**: Fueled by coffee, curiosity, and styled in a calm, modern Oceanic Teal palette (`#031716`, `#032F30`, `#0A7075`, `#0C969C`, `#6BA3BE`, `#274D60`).
+- 🚀 **Full-Stack Engineering**: Developing responsive, end-to-end web applications with modern frontend frameworks and scalable backend services.
+- ⚡ **Algorithmic Problem Solving**: Dedicated C/C++ problem solver actively practicing Data Structures & Algorithms on [LeetCode](https://leetcode.com/u/aditya-panigrahi/).
+- 🛠️ **System Architecture**: Designing clean REST APIs, relational schemas, caching mechanisms, and modular software designs.
+- 💡 **Continuous Builder**: Passionate about software craftsmanship—frequently engineering, refining, and releasing new projects across the stack.
+- 🎓 **Academic Journey**: Computer Science undergraduate exploring distributed systems, low-level efficiency, and modern developer tooling.
 
 <br/>
 
@@ -99,5 +99,5 @@ Hey there, friend! 👋 I'm **Aditya Panigrahi**, a Computer Science undergradua
 
 <div align="center">
   <!-- Waving Footer Banner in Oceanic Teal Palette -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=130&section=footer&text=Have%20a%20cozy%20day!%20🐾✨&fontSize=22&fontAlignY=65&desc=Oceanic%20Teal%20Theme%20%7C%20Built%20with%20%F0%9F%A9%B5&descAlignY=82&descAlign=50&fontColor=E8F6F8" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=130&section=footer&text=Let's%20build%20something%20exceptional!%20🚀&fontSize=22&fontAlignY=65&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer&descAlignY=82&descAlign=50&fontColor=E8F6F8" width="100%" alt="Footer Banner" />
 </div>
