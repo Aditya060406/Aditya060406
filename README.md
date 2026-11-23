@@ -1,7 +1,7 @@
 <div align="center">
-  <!-- Interactive Tech Terminal Header Banner -->
+  <!-- Interactive Cosmic Space Tech Terminal Header Banner -->
   <a href="https://aditya060406.github.io">
-    <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/header.svg" width="100%" alt="Aditya Panigrahi - Tech Terminal Banner" />
+    <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/header.svg" width="100%" alt="Aditya Panigrahi - Cosmic Space Tech Banner" />
   </a>
 
   <br/><br/>
@@ -24,9 +24,13 @@
   </a>
 
   <br/><br/>
+
+  <p><i>"Turning complex logic into scalable, elegant systems across the cosmos."</i> 🪐🌙✨</p>
 </div>
 
-## 🌊 About Me
+<br/>
+
+## 🪐 About Me
 
 ### 🚀 Core Engineering
 * **Full-Stack Engineering**: Building responsive web applications with modern frontends and robust, scalable backend services.
@@ -99,6 +103,6 @@
 <br/>
 
 <div align="center">
-  <!-- Interactive Tech Terminal Footer Banner -->
-  <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/footer.svg" width="100%" alt="Aditya Panigrahi - Tech Footer Banner" />
+  <!-- Interactive Cosmic Space Tech Footer Banner -->
+  <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/footer.svg" width="100%" alt="Aditya Panigrahi - Space Tech Footer Banner" />
 </div>

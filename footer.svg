@@ -1,85 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 110" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 125" width="100%" height="100%">
   <defs>
-    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#020E0D" />
+    <linearGradient id="spaceFooterBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#010A0A" />
       <stop offset="50%" stop-color="#031716" />
-      <stop offset="100%" stop-color="#032728" />
+      <stop offset="100%" stop-color="#021919" />
     </linearGradient>
 
-    <radialGradient id="footerGlow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#0C969C" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#031716" stop-opacity="0" />
+    <radialGradient id="spaceFooterGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0C969C" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#010A0A" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Scan Beam Gradient -->
-    <linearGradient id="footerScan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0C969C" stop-opacity="0" />
-      <stop offset="50%" stop-color="#0C969C" stop-opacity="0.8" />
-      <stop offset="70%" stop-color="#6BA3BE" stop-opacity="0.9" />
+    <radialGradient id="miniPlanetGlow" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#E8F6F8" />
+      <stop offset="50%" stop-color="#6BA3BE" />
+      <stop offset="100%" stop-color="#0A7075" />
+    </radialGradient>
+
+    <linearGradient id="meteorTailFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#0C969C" stop-opacity="0.5" />
       <stop offset="100%" stop-color="#0C969C" stop-opacity="0" />
     </linearGradient>
 
-    <pattern id="footerGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="0.8" fill="#6BA3BE" fill-opacity="0.12" />
-    </pattern>
-
     <style>
-      @keyframes footerScanBeam {
-        0% { transform: translateX(-950px); }
-        100% { transform: translateX(950px); }
+      @keyframes twinkleFooter {
+        0%, 100% { opacity: 0.25; transform: scale(0.9); }
+        50% { opacity: 0.95; transform: scale(1.2); }
       }
-      @keyframes blinkCursor {
+      @keyframes meteorFooter {
+        0% { transform: translate(120px, -40px); opacity: 0; }
+        20% { opacity: 1; }
+        50% { transform: translate(-160px, 80px); opacity: 0; }
+        100% { transform: translate(-160px, 80px); opacity: 0; }
+      }
+      @keyframes cursorBlinkFooter {
         0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
-      .footer-scan {
-        animation: footerScanBeam 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-      .cursor-blink {
-        animation: blinkCursor 1.05s infinite;
-      }
-      .mono-text {
-        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, Monaco, monospace;
-      }
-      .sans-text {
-        font-family: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      }
+      .twinkle-f1 { animation: twinkleFooter 3.5s ease-in-out infinite; }
+      .twinkle-f2 { animation: twinkleFooter 4.2s ease-in-out infinite 1.5s; }
+      .meteor-f { animation: meteorFooter 6.5s ease-in infinite; }
+      .cursor-blink-f { animation: cursorBlinkFooter 1.05s infinite; }
+      .mono-text { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, Monaco, monospace; }
+      .sans-text { font-family: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="950" height="110" rx="14" fill="url(#footerBg)" />
-  <rect width="950" height="110" rx="14" fill="url(#footerGlow)" />
-  <rect width="950" height="110" rx="14" fill="url(#footerGrid)" />
+  <!-- Deep Space Canvas -->
+  <rect width="950" height="125" rx="16" fill="url(#spaceFooterBg)" />
+  <rect width="950" height="125" rx="16" fill="url(#spaceFooterGlow)" />
 
-  <!-- Scanning beam across top border -->
-  <line x1="0" y1="1" x2="950" y2="1" stroke="#0A7075" stroke-opacity="0.3" stroke-width="1" />
-  <rect class="footer-scan" x="0" y="0" width="280" height="2" fill="url(#footerScan)" />
-
-  <!-- Circuit Traces -->
-  <g stroke="#0A7075" stroke-width="1" stroke-opacity="0.3" fill="none">
-    <path d="M 40 55 L 90 55 L 110 35 L 140 35" />
-    <circle cx="140" cy="35" r="2" fill="#0C969C" />
-    <path d="M 810 75 L 840 75 L 860 55 L 910 55" />
-    <circle cx="810" cy="75" r="2" fill="#6BA3BE" />
+  <!-- Stars in Footer -->
+  <g fill="#E8F6F8">
+    <g class="twinkle-f1">
+      <circle cx="95" cy="35" r="1.3" opacity="0.8" />
+      <circle cx="240" cy="85" r="1" opacity="0.6" />
+      <circle cx="390" cy="25" r="1.4" opacity="0.85" />
+      <circle cx="680" cy="95" r="1.2" opacity="0.75" />
+      <circle cx="850" cy="40" r="1.5" opacity="0.9" />
+    </g>
+    <g class="twinkle-f2">
+      <circle cx="160" cy="90" r="1.1" opacity="0.7" />
+      <circle cx="310" cy="40" r="1.5" opacity="0.8" />
+      <circle cx="580" cy="20" r="1.2" opacity="0.7" />
+      <circle cx="760" cy="80" r="1.6" opacity="0.85" />
+      <circle cx="905" cy="95" r="1" opacity="0.6" />
+    </g>
   </g>
 
-  <!-- Center Terminal Content -->
+  <!-- Shooting Star in Footer -->
+  <g class="meteor-f">
+    <line x1="880" y1="15" x2="800" y2="65" stroke="url(#meteorTailFooter)" stroke-width="1.8" stroke-linecap="round" />
+    <circle cx="880" cy="15" r="2" fill="#FFFFFF" />
+  </g>
+
+  <!-- Left Celestial Crescent Moon -->
+  <g transform="translate(45, 38)">
+    <circle cx="22" cy="22" r="16" fill="#021415" stroke="#0A7075" stroke-width="0.6" stroke-opacity="0.5" />
+    <path d="M 22 6 A 16 16 0 0 1 38 22 A 16 16 0 0 1 22 38 A 16 16 0 0 0 32 22 A 16 16 0 0 0 22 6 Z" fill="#E8F6F8" />
+    <circle cx="22" cy="22" r="25" fill="#0C969C" fill-opacity="0.12" />
+  </g>
+
+  <!-- Right Ringed Exoplanet -->
+  <g transform="translate(875, 62)">
+    <ellipse cx="0" cy="0" rx="34" ry="11" transform="rotate(-18)" fill="none" stroke="#6BA3BE" stroke-width="2" stroke-opacity="0.6" />
+    <circle cx="0" cy="0" r="15" fill="url(#miniPlanetGlow)" />
+    <ellipse cx="0" cy="0" rx="34" ry="11" transform="rotate(-18)" fill="none" stroke="#E8F6F8" stroke-width="1.2" stroke-opacity="0.85" stroke-dasharray="25,50" />
+  </g>
+
+  <!-- Center Content -->
   <g transform="translate(475, 42)" text-anchor="middle">
-    <!-- Command Line Prompt -->
+    <!-- Telemetry Command Line -->
     <text y="0" class="mono-text" font-size="12" font-weight="600" fill="#6BA3BE" letter-spacing="1">
-      <tspan fill="#0C969C">❯ </tspan>git push origin main <tspan fill="#0C969C">--deploy=success</tspan>
-      <tspan class="cursor-blink" fill="#0C969C"> █</tspan>
+      <tspan fill="#0C969C">❯ </tspan>trajectory: <tspan fill="#94E2D5">"DEEP_SPACE_VOYAGE"</tspan> <tspan fill="#0C969C">//</tspan> next: <tspan fill="#E8F6F8">EXCEPTIONAL_SOFTWARE</tspan>
+      <tspan class="cursor-blink-f" fill="#0C969C"> █</tspan>
     </text>
 
-    <!-- Main Footer Banner Text -->
-    <text y="32" class="sans-text" font-size="19" font-weight="800" fill="#E8F6F8" letter-spacing="0.5">
-      LET'S BUILD SOMETHING EXCEPTIONAL! <tspan fill="#0C969C">🚀</tspan>
+    <!-- Main Heading -->
+    <text y="34" class="sans-text" font-size="20" font-weight="800" fill="#E8F6F8" letter-spacing="0.5">
+      LET'S BUILD SOMETHING EXCEPTIONAL! <tspan fill="#0C969C">🪐🚀</tspan>
     </text>
 
-    <!-- Subtitle Telemetry -->
-    <text y="52" class="mono-text" font-size="10.5" font-weight="500" fill="#6BA3BE" letter-spacing="1">
-      [ SOFTWARE ENGINEER // FULL-STACK ARCHITECT // OPEN FOR COLLABORATION ]
+    <!-- Subtitle -->
+    <text y="56" class="mono-text" font-size="10.5" font-weight="600" fill="#6BA3BE" letter-spacing="1">
+      [ SOFTWARE ENGINEER ✦ FULL-STACK ARCHITECT ✦ OPEN FOR COLLABORATION ]
     </text>
   </g>
 </svg>
