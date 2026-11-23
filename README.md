@@ -1,12 +1,7 @@
 <div align="center">
-  <!-- Waving Header Banner in Custom Oceanic Teal Palette -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=230&section=header&text=Aditya%20Panigrahi&fontSize=48&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20CS%20Undergrad&descAlignY=62&descAlign=50&fontColor=E8F6F8" width="100%" alt="Aditya Panigrahi - Oceanic Teal Banner" />
-
-  <br/>
-
-  <!-- Animated Typing Banner in Vibrant Teal -->
+  <!-- Interactive Tech Terminal Header Banner -->
   <a href="https://aditya060406.github.io">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=3200&pause=1000&color=0C969C&center=true&vCenter=true&width=650&height=45&lines=Building+scalable%2C+high-performance+web+applications%3BCrafting+clean%2C+maintainable+%26+modern+architectures%3BPassionate+about+Data+Structures+%26+Algorithms+in+C%2B%2B%3BTransforming+ideas+into+elegant%2C+scalable+software%3BConstantly+learning%2C+exploring+%26+building+new+systems" alt="Aditya's Typing Banner" />
+    <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/header.svg" width="100%" alt="Aditya Panigrahi - Tech Terminal Banner" />
   </a>
 
   <br/><br/>
@@ -29,11 +24,7 @@
   </a>
 
   <br/><br/>
-
-  <p><i>"Turning complex logic into scalable, elegant systems."</i> 🌊☕✨</p>
 </div>
-
-<br/>
 
 ## 🌊 About Me
 
@@ -108,6 +99,6 @@
 <br/>
 
 <div align="center">
-  <!-- Waving Footer Banner in Oceanic Teal Palette -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:031716,25:032F30,50:0A7075,75:0C969C,100:6BA3BE&height=130&section=footer&text=Let%27s%20Build%20Something%20Exceptional!&fontSize=22&fontAlignY=65&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer&descAlignY=82&descAlign=50&fontColor=E8F6F8" width="100%" alt="Footer Banner" />
+  <!-- Interactive Tech Terminal Footer Banner -->
+  <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/footer.svg" width="100%" alt="Aditya Panigrahi - Tech Footer Banner" />
 </div>

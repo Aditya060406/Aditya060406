@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020E0D" />
+      <stop offset="40%" stop-color="#031716" />
+      <stop offset="80%" stop-color="#032728" />
+      <stop offset="100%" stop-color="#021413" />
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0C969C" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#0A7075" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#031716" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cornerGlow" cx="90%" cy="15%" r="45%">
+      <stop offset="0%" stop-color="#6BA3BE" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#031716" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="45%" stop-color="#E8F6F8" />
+      <stop offset="80%" stop-color="#6BA3BE" />
+      <stop offset="100%" stop-color="#0C969C" />
+    </linearGradient>
+
+    <!-- Scan Beam Gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0C969C" stop-opacity="0" />
+      <stop offset="50%" stop-color="#0C969C" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#6BA3BE" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0C969C" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Tech Dot Grid Pattern -->
+    <pattern id="techGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1" fill="#6BA3BE" fill-opacity="0.14" />
+      <path d="M 14 10 L 14 18 M 10 14 L 18 14" stroke="#0C969C" stroke-width="0.5" stroke-opacity="0.07" />
+    </pattern>
+
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes pulseDot {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.3); opacity: 0.4; }
+      }
+      @keyframes scanBeam {
+        0% { transform: translateX(-950px); }
+        100% { transform: translateX(950px); }
+      }
+      @keyframes circuitFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      .cursor-blink {
+        animation: blink 1.05s infinite;
+      }
+      .pulse-dot {
+        transform-origin: 902px 26px;
+        animation: pulseDot 2s ease-in-out infinite;
+      }
+      .scan-line {
+        animation: scanBeam 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .mono-text {
+        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, Monaco, monospace;
+      }
+      .sans-text {
+        font-family: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Card Canvas -->
+  <rect width="950" height="320" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Ambient Light Orbs -->
+  <rect width="950" height="320" rx="16" fill="url(#centerGlow)" />
+  <rect width="950" height="320" rx="16" fill="url(#cornerGlow)" />
+
+  <!-- Tech Grid Overlay -->
+  <rect width="950" height="320" rx="16" fill="url(#techGrid)" />
+
+  <!-- Cyber Circuit Decorative Traces (Left & Right) -->
+  <g stroke="#0A7075" stroke-width="1.2" stroke-opacity="0.35" fill="none">
+    <!-- Top-left traces -->
+    <path d="M 30 75 L 85 75 L 110 100 L 160 100" />
+    <circle cx="160" cy="100" r="2.5" fill="#0C969C" fill-opacity="0.6" />
+    <circle cx="30" cy="75" r="2" fill="#6BA3BE" fill-opacity="0.4" />
+
+    <!-- Bottom-right traces -->
+    <path d="M 790 280 L 840 280 L 865 255 L 920 255" />
+    <circle cx="790" cy="280" r="2.5" fill="#0C969C" fill-opacity="0.6" />
+    <circle cx="920" cy="255" r="2" fill="#6BA3BE" fill-opacity="0.4" />
+
+    <path d="M 830 295 L 880 295" />
+    <circle cx="880" cy="295" r="2" fill="#0A7075" />
+  </g>
+
+  <!-- Terminal Window Header Bar -->
+  <rect x="0" y="0" width="950" height="42" rx="16" fill="#031C1B" fill-opacity="0.85" />
+  <rect x="0" y="32" width="950" height="10" fill="#031C1B" fill-opacity="0.85" />
+  <line x1="0" y1="42" x2="950" y2="42" stroke="#0A7075" stroke-opacity="0.3" stroke-width="1" />
+
+  <!-- Animated Scanning Beam across top header border -->
+  <g>
+    <rect class="scan-line" x="0" y="41" width="300" height="2" fill="url(#scanGrad)" />
+  </g>
+
+  <!-- macOS / Linux Terminal Window Buttons -->
+  <circle cx="28" cy="21" r="5.5" fill="#FF5F56" />
+  <circle cx="46" cy="21" r="5.5" fill="#FFBD2E" />
+  <circle cx="64" cy="21" r="5.5" fill="#27C93F" />
+
+  <!-- Terminal Title -->
+  <text x="92" y="26" class="mono-text" font-size="12" font-weight="600" fill="#6BA3BE" fill-opacity="0.85" letter-spacing="0.5">
+    aditya@workstation: ~/developer/core <tspan fill="#0C969C" fill-opacity="0.9">(main)</tspan>
+  </text>
+
+  <!-- System Online Status Pill (Right Header) -->
+  <rect x="780" y="11" width="144" height="22" rx="11" fill="#032F30" fill-opacity="0.65" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.5" />
+  <circle class="pulse-dot" cx="796" cy="22" r="3.5" fill="#0C969C" />
+  <text x="806" y="26" class="mono-text" font-size="10" font-weight="700" fill="#E8F6F8" letter-spacing="0.6">SYSTEM: ACTIVE</text>
+
+  <!-- Main Developer Identity Section -->
+  <!-- Chip Monogram Icon Box -->
+  <g transform="translate(42, 68)">
+    <rect width="64" height="64" rx="14" fill="#032F30" fill-opacity="0.75" stroke="#0C969C" stroke-width="1.2" stroke-opacity="0.6" />
+    <!-- Glowing Inner Box -->
+    <rect x="4" y="4" width="56" height="56" rx="10" fill="#031716" fill-opacity="0.8" />
+    <text x="32" y="38" text-anchor="middle" class="mono-text" font-size="20" font-weight="800" fill="#0C969C" letter-spacing="-0.5">&lt;AP/&gt;</text>
+  </g>
+
+  <!-- Developer Name & Roles -->
+  <text x="122" y="98" class="sans-text" font-size="34" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.5">
+    ADITYA PANIGRAHI
+  </text>
+
+  <!-- Tech Roles Telemetry -->
+  <text x="124" y="122" class="mono-text" font-size="12.5" font-weight="600" fill="#6BA3BE" letter-spacing="1.2">
+    FULL-STACK ARCHITECT <tspan fill="#0C969C">//</tspan> SYSTEMS &amp; C++ <tspan fill="#0C969C">//</tspan> CONTINUOUS BUILDER
+  </text>
+
+  <!-- Terminal Code Console Window (Interactive Look) -->
+  <g transform="translate(42, 148)">
+    <!-- Terminal Body Background -->
+    <rect width="866" height="106" rx="10" fill="#021514" fill-opacity="0.88" stroke="#0A7075" stroke-width="1" stroke-opacity="0.35" />
+
+    <!-- Terminal Command Line 1 -->
+    <text x="20" y="30" class="mono-text" font-size="13" font-weight="500">
+      <tspan fill="#0C969C" font-weight="700">❯</tspan>
+      <tspan fill="#6BA3BE"> const</tspan>
+      <tspan fill="#E8F6F8"> engineer </tspan>
+      <tspan fill="#6BA3BE">=</tspan>
+      <tspan fill="#E8F6F8"> { </tspan>
+      <tspan fill="#6BA3BE">stack:</tspan>
+      <tspan fill="#94E2D5"> ["React", "TypeScript", "Node.js", "C++", "PostgreSQL", "Redis"]</tspan>
+      <tspan fill="#E8F6F8"> };</tspan>
+    </text>
+
+    <!-- Terminal Command Line 2 -->
+    <text x="20" y="56" class="mono-text" font-size="13" font-weight="500">
+      <tspan fill="#0C969C" font-weight="700">❯</tspan>
+      <tspan fill="#6BA3BE"> sys.mission</tspan>
+      <tspan fill="#6BA3BE">:</tspan>
+      <tspan fill="#94E2D5"> "Architecting high-performance web systems &amp; low-latency algorithmic solutions."</tspan>
+    </text>
+
+    <!-- Terminal Command Line 3 with Blinking Tech Cursor -->
+    <text x="20" y="82" class="mono-text" font-size="13" font-weight="500">
+      <tspan fill="#0C969C" font-weight="700">❯</tspan>
+      <tspan fill="#E8F6F8"> git commit -m </tspan>
+      <tspan fill="#94E2D5">"turning complex logic into scalable, elegant systems"</tspan>
+      <tspan class="cursor-blink" fill="#0C969C" font-weight="800"> █</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Telemetry Badges Strip -->
+  <g transform="translate(42, 272)">
+    <!-- Badge 1: Architecture -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="26" rx="6" fill="#032F30" fill-opacity="0.5" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.4" />
+      <text x="90" y="17" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#E8F6F8" letter-spacing="0.5">
+        <tspan fill="#0C969C">● </tspan>CLEAN ARCHITECTURE
+      </text>
+    </g>
+
+    <!-- Badge 2: DSA & C++ -->
+    <g transform="translate(192, 0)">
+      <rect width="168" height="26" rx="6" fill="#032F30" fill-opacity="0.5" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.4" />
+      <text x="84" y="17" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#E8F6F8" letter-spacing="0.5">
+        <tspan fill="#6BA3BE">⚡ </tspan>C++ &amp; ALGORITHMS
+      </text>
+    </g>
+
+    <!-- Badge 3: Scalable Web -->
+    <g transform="translate(372, 0)">
+      <rect width="186" height="26" rx="6" fill="#032F30" fill-opacity="0.5" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.4" />
+      <text x="93" y="17" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#E8F6F8" letter-spacing="0.5">
+        <tspan fill="#0C969C">🚀 </tspan>FULL-STACK PLATFORMS
+      </text>
+    </g>
+
+    <!-- Badge 4: Production Grade -->
+    <g transform="translate(570, 0)">
+      <rect width="180" height="26" rx="6" fill="#032F30" fill-opacity="0.5" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.4" />
+      <text x="90" y="17" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="600" fill="#E8F6F8" letter-spacing="0.5">
+        <tspan fill="#6BA3BE">🛠️ </tspan>API &amp; DB DESIGN
+      </text>
+    </g>
+
+    <!-- Badge 5: Status -->
+    <g transform="translate(762, 0)">
+      <rect width="104" height="26" rx="6" fill="#032F30" fill-opacity="0.5" stroke="#0C969C" stroke-width="0.8" stroke-opacity="0.6" />
+      <text x="52" y="17" text-anchor="middle" class="mono-text" font-size="10.5" font-weight="700" fill="#0C969C" letter-spacing="0.5">
+        SHIPPING ➔
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 110" width="100%" height="100%">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020E0D" />
+      <stop offset="50%" stop-color="#031716" />
+      <stop offset="100%" stop-color="#032728" />
+    </linearGradient>
+
+    <radialGradient id="footerGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0C969C" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#031716" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Scan Beam Gradient -->
+    <linearGradient id="footerScan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0C969C" stop-opacity="0" />
+      <stop offset="50%" stop-color="#0C969C" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#6BA3BE" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0C969C" stop-opacity="0" />
+    </linearGradient>
+
+    <pattern id="footerGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.8" fill="#6BA3BE" fill-opacity="0.12" />
+    </pattern>
+
+    <style>
+      @keyframes footerScanBeam {
+        0% { transform: translateX(-950px); }
+        100% { transform: translateX(950px); }
+      }
+      @keyframes blinkCursor {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .footer-scan {
+        animation: footerScanBeam 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .cursor-blink {
+        animation: blinkCursor 1.05s infinite;
+      }
+      .mono-text {
+        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, Monaco, monospace;
+      }
+      .sans-text {
+        font-family: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="950" height="110" rx="14" fill="url(#footerBg)" />
+  <rect width="950" height="110" rx="14" fill="url(#footerGlow)" />
+  <rect width="950" height="110" rx="14" fill="url(#footerGrid)" />
+
+  <!-- Scanning beam across top border -->
+  <line x1="0" y1="1" x2="950" y2="1" stroke="#0A7075" stroke-opacity="0.3" stroke-width="1" />
+  <rect class="footer-scan" x="0" y="0" width="280" height="2" fill="url(#footerScan)" />
+
+  <!-- Circuit Traces -->
+  <g stroke="#0A7075" stroke-width="1" stroke-opacity="0.3" fill="none">
+    <path d="M 40 55 L 90 55 L 110 35 L 140 35" />
+    <circle cx="140" cy="35" r="2" fill="#0C969C" />
+    <path d="M 810 75 L 840 75 L 860 55 L 910 55" />
+    <circle cx="810" cy="75" r="2" fill="#6BA3BE" />
+  </g>
+
+  <!-- Center Terminal Content -->
+  <g transform="translate(475, 42)" text-anchor="middle">
+    <!-- Command Line Prompt -->
+    <text y="0" class="mono-text" font-size="12" font-weight="600" fill="#6BA3BE" letter-spacing="1">
+      <tspan fill="#0C969C">❯ </tspan>git push origin main <tspan fill="#0C969C">--deploy=success</tspan>
+      <tspan class="cursor-blink" fill="#0C969C"> █</tspan>
+    </text>
+
+    <!-- Main Footer Banner Text -->
+    <text y="32" class="sans-text" font-size="19" font-weight="800" fill="#E8F6F8" letter-spacing="0.5">
+      LET'S BUILD SOMETHING EXCEPTIONAL! <tspan fill="#0C969C">🚀</tspan>
+    </text>
+
+    <!-- Subtitle Telemetry -->
+    <text y="52" class="mono-text" font-size="10.5" font-weight="500" fill="#6BA3BE" letter-spacing="1">
+      [ SOFTWARE ENGINEER // FULL-STACK ARCHITECT // OPEN FOR COLLABORATION ]
+    </text>
+  </g>
+</svg>
