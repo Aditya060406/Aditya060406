@@ -252,9 +252,9 @@
     ADITYA PANIGRAHI
   </text>
 
-  <!-- Role Subtitle with Celestial Bullet Glyphs -->
+  <!-- Role Subtitle -->
   <text x="196" y="116" class="mono-text" font-size="12" font-weight="600" fill="#6BA3BE" letter-spacing="1.2">
-    FULL-STACK ARCHITECT <tspan fill="#0C969C">✦</tspan> SYSTEMS &amp; C++ <tspan fill="#0C969C">✦</tspan> SPACE-GRADE SOFTWARE
+    FULL-STACK ARCHITECT <tspan fill="#0C969C">//</tspan> SYSTEMS &amp; C++ <tspan fill="#0C969C">//</tspan> HIGH-PERFORMANCE COMPUTING
   </text>
 
   <!-- ================= CELESTIAL CODE CONSOLE ================= -->
@@ -266,7 +266,7 @@
     <text x="20" y="32" class="mono-text" font-size="13" font-weight="500">
       <tspan fill="#0C969C" font-weight="700">❯</tspan>
       <tspan fill="#6BA3BE"> const</tspan>
-      <tspan fill="#E8F6F8"> mission </tspan>
+      <tspan fill="#E8F6F8"> engineer </tspan>
       <tspan fill="#6BA3BE">=</tspan>
       <tspan fill="#E8F6F8"> { </tspan>
       <tspan fill="#6BA3BE">core:</tspan>
@@ -280,27 +280,27 @@
     <!-- Terminal Command 2 -->
     <text x="20" y="60" class="mono-text" font-size="13" font-weight="500">
       <tspan fill="#0C969C" font-weight="700">❯</tspan>
-      <tspan fill="#6BA3BE"> voyager.destination</tspan>
+      <tspan fill="#6BA3BE"> sys.mission</tspan>
       <tspan fill="#6BA3BE">:</tspan>
-      <tspan fill="#94E2D5"> "Transforming complex logic into scalable, elegant systems across the cosmos."</tspan>
+      <tspan fill="#94E2D5"> "Architecting high-performance web systems &amp; low-latency algorithmic solutions."</tspan>
     </text>
 
     <!-- Terminal Command 3 with Blinking Cursor -->
     <text x="20" y="88" class="mono-text" font-size="13" font-weight="500">
       <tspan fill="#0C969C" font-weight="700">❯</tspan>
       <tspan fill="#E8F6F8"> git push origin main </tspan>
-      <tspan fill="#6BA3BE">--tag=</tspan><tspan fill="#94E2D5">"exploring-frontiers &amp; shipping-regularly"</tspan>
+      <tspan fill="#6BA3BE">--release=</tspan><tspan fill="#94E2D5">"production-grade-software"</tspan>
       <tspan class="cursor-blink" fill="#0C969C" font-weight="800"> █</tspan>
     </text>
   </g>
 
   <!-- ================= TELEMETRY CHIPS STRIP ================= -->
   <g transform="translate(42, 276)">
-    <!-- Chip 1: Celestial Systems -->
+    <!-- Chip 1: Architecture -->
     <g transform="translate(0, 0)">
       <rect width="186" height="28" rx="8" fill="#032F30" fill-opacity="0.55" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.45" />
       <text x="93" y="18" text-anchor="middle" class="mono-text" font-size="11" font-weight="600" fill="#E8F6F8" letter-spacing="0.5">
-        <tspan fill="#0C969C">🪐 </tspan>CELESTIAL ARCHITECTURE
+        SYSTEM ARCHITECTURE
       </text>
     </g>
 
@@ -308,7 +308,7 @@
     <g transform="translate(198, 0)">
       <rect width="176" height="28" rx="8" fill="#032F30" fill-opacity="0.55" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.45" />
       <text x="88" y="18" text-anchor="middle" class="mono-text" font-size="11" font-weight="600" fill="#E8F6F8" letter-spacing="0.5">
-        <tspan fill="#6BA3BE">⚡ </tspan>C++ &amp; ALGORITHMS
+        C++ &amp; ALGORITHMS
       </text>
     </g>
 
@@ -316,23 +316,23 @@
     <g transform="translate(386, 0)">
       <rect width="190" height="28" rx="8" fill="#032F30" fill-opacity="0.55" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.45" />
       <text x="95" y="18" text-anchor="middle" class="mono-text" font-size="11" font-weight="600" fill="#E8F6F8" letter-spacing="0.5">
-        <tspan fill="#0C969C">🚀 </tspan>SCALABLE PLATFORMS
+        FULL-STACK PLATFORMS
       </text>
     </g>
 
-    <!-- Chip 4: High Concurrency -->
+    <!-- Chip 4: API & DB Design -->
     <g transform="translate(588, 0)">
       <rect width="170" height="28" rx="8" fill="#032F30" fill-opacity="0.55" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.45" />
       <text x="85" y="18" text-anchor="middle" class="mono-text" font-size="11" font-weight="600" fill="#E8F6F8" letter-spacing="0.5">
-        <tspan fill="#6BA3BE">🛰️ </tspan>API &amp; DB DESIGN
+        API &amp; DATABASE DESIGN
       </text>
     </g>
 
-    <!-- Chip 5: Launch -->
+    <!-- Chip 5: Status -->
     <g transform="translate(770, 0)">
       <rect width="96" height="28" rx="8" fill="#032F30" fill-opacity="0.55" stroke="#0C969C" stroke-width="0.9" stroke-opacity="0.7" />
       <text x="48" y="18" text-anchor="middle" class="mono-text" font-size="11" font-weight="700" fill="#0C969C" letter-spacing="0.6">
-        ORBIT ➔
+        ONLINE ➔
       </text>
     </g>
   </g>

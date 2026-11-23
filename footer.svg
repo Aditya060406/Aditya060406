@@ -99,12 +99,12 @@
 
     <!-- Main Heading -->
     <text y="34" class="sans-text" font-size="20" font-weight="800" fill="#E8F6F8" letter-spacing="0.5">
-      LET'S BUILD SOMETHING EXCEPTIONAL! <tspan fill="#0C969C">🪐🚀</tspan>
+      LET'S BUILD SOMETHING EXCEPTIONAL!
     </text>
 
     <!-- Subtitle -->
     <text y="56" class="mono-text" font-size="10.5" font-weight="600" fill="#6BA3BE" letter-spacing="1">
-      [ SOFTWARE ENGINEER ✦ FULL-STACK ARCHITECT ✦ OPEN FOR COLLABORATION ]
+      [ SOFTWARE ENGINEER // FULL-STACK ARCHITECT // OPEN FOR COLLABORATION ]
     </text>
   </g>
 </svg>

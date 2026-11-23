@@ -1,7 +1,7 @@
 <div align="center">
   <!-- Interactive Cosmic Space Tech Terminal Header Banner -->
   <a href="https://aditya060406.github.io">
-    <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/header.svg" width="100%" alt="Aditya Panigrahi - Cosmic Space Tech Banner" />
+    <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/header.svg" width="100%" alt="Aditya Panigrahi - Technical Developer Banner" />
   </a>
 
   <br/><br/>
@@ -24,27 +24,23 @@
   </a>
 
   <br/><br/>
-
-  <p><i>"Turning complex logic into scalable, elegant systems across the cosmos."</i> 🪐🌙✨</p>
 </div>
 
-<br/>
+## About Me
 
-## 🪐 About Me
-
-### 🚀 Core Engineering
+### Core Engineering
 * **Full-Stack Engineering**: Building responsive web applications with modern frontends and robust, scalable backend services.
 * **System Architecture**: Designing clean REST APIs, relational schemas, caching layers, and modular architectures.
 * **Continuous Delivery**: Frequently designing, building, and deploying new software solutions and developer tools.
 
-### ⚡ Algorithmic Problem Solving
+### Algorithmic Problem Solving
 * **Data Structures & Algorithms**: Dedicated C/C++ problem solver actively practicing algorithmic problem solving on [LeetCode](https://leetcode.com/u/aditya-panigrahi/).
-* **Performance First**: Focusing on memory efficiency, algorithmic complexity, and low-latency execution.
+* **Performance Optimization**: Focusing on memory efficiency, algorithmic complexity, and low-latency execution.
 * **Computer Science Foundation**: Undergraduate diving into operating systems, distributed concepts, and modern software design.
 
 <br/>
 
-## 🛠️ Technical Arsenal
+## Technical Arsenal
 
 <div align="center">
   <!-- Skill Icons Strip (Borderless) -->
@@ -70,7 +66,7 @@
 
 <br/>
 
-## 📊 Analytics & Coding Activity
+## Analytics & Activity
 
 <div align="center">
   <!-- Completely Borderless Stats Cards -->
@@ -104,5 +100,5 @@
 
 <div align="center">
   <!-- Interactive Cosmic Space Tech Footer Banner -->
-  <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/footer.svg" width="100%" alt="Aditya Panigrahi - Space Tech Footer Banner" />
+  <img src="https://raw.githubusercontent.com/Aditya060406/Aditya060406/main/footer.svg" width="100%" alt="Aditya Panigrahi - Technical Footer Banner" />
 </div>
