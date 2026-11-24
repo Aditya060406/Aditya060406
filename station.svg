@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 370" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="stationBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#010A0A" />
+      <stop offset="40%" stop-color="#031716" />
+      <stop offset="85%" stop-color="#021B1C" />
+      <stop offset="100%" stop-color="#010E0E" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#032425" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#021617" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Teal Glow Gradient -->
+    <radialGradient id="tealGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0C969C" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#0C969C" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Mist Glow Gradient -->
+    <radialGradient id="mistGlow" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#6BA3BE" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#6BA3BE" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Progress Bar Gradient -->
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A7075" />
+      <stop offset="60%" stop-color="#0C969C" />
+      <stop offset="100%" stop-color="#6BA3BE" />
+    </linearGradient>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.9; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(1.3); }
+      }
+      @keyframes steamRise {
+        0% { transform: translateY(0) scaleX(1); opacity: 0.8; }
+        50% { transform: translateY(-4px) scaleX(1.15); opacity: 0.5; }
+        100% { transform: translateY(-8px) scaleX(0.9); opacity: 0; }
+      }
+      @keyframes waveBar {
+        0%, 100% { height: 4px; y: 16px; }
+        50% { height: 16px; y: 4px; }
+      }
+      .mono-code { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+      .sans-ui { font-family: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .pulse-dot { animation: pulseGlow 2.2s infinite ease-in-out; transform-origin: 28px 24px; }
+      .steam-1 { animation: steamRise 2s infinite ease-out; }
+      .steam-2 { animation: steamRise 2s infinite ease-out 0.6s; }
+      .wb-1 { animation: waveBar 1.2s infinite ease-in-out; }
+      .wb-2 { animation: waveBar 1.2s infinite ease-in-out 0.2s; }
+      .wb-3 { animation: waveBar 1.2s infinite ease-in-out 0.4s; }
+      .wb-4 { animation: waveBar 1.2s infinite ease-in-out 0.1s; }
+      .wb-5 { animation: waveBar 1.2s infinite ease-in-out 0.3s; }
+    </style>
+  </defs>
+
+  <!-- Outer Console Container -->
+  <rect width="950" height="370" rx="18" fill="url(#stationBg)" stroke="#0A7075" stroke-width="1.2" stroke-opacity="0.35" />
+
+  <!-- Ambient Glows -->
+  <rect x="0" y="0" width="450" height="370" rx="18" fill="url(#mistGlow)" />
+  <rect x="500" y="0" width="450" height="370" rx="18" fill="url(#tealGlow)" />
+
+  <!-- ================= TOP CONSOLE HEADER BAR ================= -->
+  <g transform="translate(24, 20)">
+    <!-- Status Beacon LED -->
+    <circle cx="6" cy="6" r="4.5" fill="#0C969C" class="pulse-dot" />
+    <circle cx="6" cy="6" r="2.5" fill="#E8F6F8" />
+
+    <!-- Terminal Window Dots -->
+    <circle cx="28" cy="6" r="4" fill="#0A7075" opacity="0.6" />
+    <circle cx="42" cy="6" r="4" fill="#032F30" stroke="#0C969C" stroke-width="0.8" opacity="0.8" />
+    <circle cx="56" cy="6" r="4" fill="#6BA3BE" opacity="0.6" />
+
+    <!-- Title Badge -->
+    <text x="76" y="10" class="mono-code" font-size="12" font-weight="700" fill="#E8F6F8" letter-spacing="1">
+      ADITYA // DEV-STATION <tspan fill="#0C969C">[ACTIVE]</tspan>
+    </text>
+
+    <!-- Subtitle Spec -->
+    <text x="310" y="10" class="mono-code" font-size="10.5" font-weight="500" fill="#6BA3BE">
+      NODE: workstation.local // ENV: production // KERNEL: c++20-stl
+    </text>
+
+    <!-- Cozy Audio Equalizer & Fuel Pill (Right Aligned) -->
+    <g transform="translate(685, -5)">
+      <rect width="215" height="24" rx="12" fill="#032F30" fill-opacity="0.6" stroke="#0A7075" stroke-width="0.8" />
+      
+      <!-- Mini Steam Cup -->
+      <g transform="translate(14, 4)">
+        <!-- Steam Lines -->
+        <path d="M 3 0 Q 4 -3 3 -6" stroke="#6BA3BE" stroke-width="0.8" fill="none" class="steam-1" />
+        <path d="M 7 0 Q 8 -3 7 -6" stroke="#0C969C" stroke-width="0.8" fill="none" class="steam-2" />
+        <!-- Cup Body -->
+        <path d="M 0 3 L 2 11 Q 2 13 5 13 L 6 13 Q 9 13 9 11 L 11 3 Z" fill="#0C969C" />
+        <path d="M 11 5 Q 14 5 14 8 Q 14 11 11 11" stroke="#0C969C" stroke-width="1" fill="none" />
+      </g>
+      <text x="36" y="16" class="mono-code" font-size="9.5" font-weight="600" fill="#E8F6F8">COFFEE: 100%</text>
+
+      <!-- Mini Waveform -->
+      <g transform="translate(130, 2)">
+        <rect x="0" y="4" width="2" height="12" rx="1" fill="#6BA3BE" class="wb-1" />
+        <rect x="4" y="6" width="2" height="10" rx="1" fill="#0C969C" class="wb-2" />
+        <rect x="8" y="2" width="2" height="14" rx="1" fill="#E8F6F8" class="wb-3" />
+        <rect x="12" y="5" width="2" height="11" rx="1" fill="#6BA3BE" class="wb-4" />
+        <rect x="16" y="8" width="2" height="8" rx="1" fill="#0C969C" class="wb-5" />
+      </g>
+      <text x="156" y="16" class="mono-code" font-size="9.5" font-weight="600" fill="#6BA3BE">LO-FI</text>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="24" y1="52" x2="926" y2="52" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.35" />
+
+  <!-- ================= LEFT BENTO: DEVELOPER DOSSIER ================= -->
+  <g transform="translate(24, 68)">
+    <!-- Bento Card Frame -->
+    <rect width="436" height="276" rx="14" fill="url(#cardBg)" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.45" />
+
+    <!-- Card Header Tag -->
+    <rect x="16" y="14" width="168" height="20" rx="6" fill="#032F30" fill-opacity="0.7" stroke="#0C969C" stroke-width="0.6" />
+    <text x="24" y="28" class="mono-code" font-size="9.5" font-weight="700" fill="#0C969C" letter-spacing="0.5">
+      // ENGINEER IDENTITY
+    </text>
+
+    <!-- Key-Value Telemetry Rows -->
+    <!-- Row 1: Identity -->
+    <g transform="translate(18, 52)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#6BA3BE">HANDLE</text>
+      <text x="95" y="12" class="mono-code" font-size="11.5" font-weight="700" fill="#E8F6F8">Aditya Panigrahi</text>
+      <text x="235" y="12" class="mono-code" font-size="10" font-weight="500" fill="#0C969C">[@Aditya060406]</text>
+    </g>
+
+    <!-- Row 2: Role -->
+    <g transform="translate(18, 80)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#6BA3BE">ROLE</text>
+      <text x="95" y="12" class="mono-code" font-size="11" font-weight="600" fill="#E8F6F8">Software Engineer &amp; CS Undergrad</text>
+    </g>
+
+    <!-- Row 3: Domain -->
+    <g transform="translate(18, 108)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#6BA3BE">FOCUS</text>
+      <text x="95" y="12" class="mono-code" font-size="10.5" font-weight="500" fill="#94E2D5">Full-Stack Architecture &amp; C++ Systems</text>
+    </g>
+
+    <!-- Row 4: Problem Solving -->
+    <g transform="translate(18, 136)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#6BA3BE">DSA &amp; CP</text>
+      <text x="95" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#E8F6F8">LeetCode Problem Solver</text>
+      <text x="270" y="12" class="mono-code" font-size="9.5" font-weight="600" fill="#6BA3BE">[C++ STL]</text>
+    </g>
+
+    <!-- Row 5: Philosophy -->
+    <g transform="translate(18, 164)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#6BA3BE">TARGET</text>
+      <text x="95" y="12" class="mono-code" font-size="10" font-weight="500" fill="#94E2D5">Time: O(log N) // Memory: Minimal</text>
+    </g>
+
+    <!-- Philosophy Quote Box -->
+    <g transform="translate(18, 196)">
+      <rect width="400" height="64" rx="8" fill="#011B1B" fill-opacity="0.8" stroke="#0A7075" stroke-width="0.6" stroke-dasharray="2,3" />
+      <text x="14" y="24" class="sans-ui" font-size="11" font-style="italic" fill="#E8F6F8" font-weight="500">
+        "Building scalable systems with algorithmic precision,"
+      </text>
+      <text x="14" y="44" class="sans-ui" font-size="11" font-style="italic" fill="#6BA3BE" font-weight="400">
+        delivered through clean code, zero clutter, and craftsmanship.
+      </text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT BENTO: ENGINEERING METRICS ================= -->
+  <g transform="translate(488, 68)">
+    <!-- Bento Card Frame -->
+    <rect width="438" height="276" rx="14" fill="url(#cardBg)" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.45" />
+
+    <!-- Card Header Tag -->
+    <rect x="16" y="14" width="205" height="20" rx="6" fill="#032F30" fill-opacity="0.7" stroke="#0C969C" stroke-width="0.6" />
+    <text x="24" y="28" class="mono-code" font-size="9.5" font-weight="700" fill="#0C969C" letter-spacing="0.5">
+      // SYSTEM ARCHITECTURE &amp; SPECS
+    </text>
+
+    <!-- Capability Gauges -->
+    <!-- Gauge 1: Systems & DSA -->
+    <g transform="translate(18, 50)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#E8F6F8">C++ &amp; Algorithmic Logic</text>
+      <text x="365" y="12" class="mono-code" font-size="10" font-weight="700" fill="#0C969C">94%</text>
+      <rect x="0" y="18" width="402" height="7" rx="3.5" fill="#031716" stroke="#0A7075" stroke-width="0.5" />
+      <rect x="0" y="18" width="378" height="7" rx="3.5" fill="url(#barGrad)" />
+    </g>
+
+    <!-- Gauge 2: Full-Stack Platforms -->
+    <g transform="translate(18, 88)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#E8F6F8">Full-Stack Architecture (React / Node / TS)</text>
+      <text x="365" y="12" class="mono-code" font-size="10" font-weight="700" fill="#0C969C">92%</text>
+      <rect x="0" y="18" width="402" height="7" rx="3.5" fill="#031716" stroke="#0A7075" stroke-width="0.5" />
+      <rect x="0" y="18" width="370" height="7" rx="3.5" fill="url(#barGrad)" />
+    </g>
+
+    <!-- Gauge 3: API & Database -->
+    <g transform="translate(18, 126)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#E8F6F8">API &amp; Database Design (Postgres / Redis)</text>
+      <text x="365" y="12" class="mono-code" font-size="10" font-weight="700" fill="#0C969C">89%</text>
+      <rect x="0" y="18" width="402" height="7" rx="3.5" fill="#031716" stroke="#0A7075" stroke-width="0.5" />
+      <rect x="0" y="18" width="358" height="7" rx="3.5" fill="url(#barGrad)" />
+    </g>
+
+    <!-- Gauge 4: Clean Architecture -->
+    <g transform="translate(18, 164)">
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#E8F6F8">Clean Code &amp; Continuous Delivery</text>
+      <text x="365" y="12" class="mono-code" font-size="10" font-weight="700" fill="#0C969C">96%</text>
+      <rect x="0" y="18" width="402" height="7" rx="3.5" fill="#031716" stroke="#0A7075" stroke-width="0.5" />
+      <rect x="0" y="18" width="386" height="7" rx="3.5" fill="url(#barGrad)" />
+    </g>
+
+    <!-- Bottom Telemetry Chips -->
+    <g transform="translate(18, 218)">
+      <!-- Chip 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="90" height="24" rx="6" fill="#032F30" fill-opacity="0.7" stroke="#0A7075" stroke-width="0.7" />
+        <text x="45" y="16" text-anchor="middle" class="mono-code" font-size="9" font-weight="600" fill="#E8F6F8">MODULAR</text>
+      </g>
+      <!-- Chip 2 -->
+      <g transform="translate(98, 0)">
+        <rect width="102" height="24" rx="6" fill="#032F30" fill-opacity="0.7" stroke="#0A7075" stroke-width="0.7" />
+        <text x="51" y="16" text-anchor="middle" class="mono-code" font-size="9" font-weight="600" fill="#94E2D5">LOW LATENCY</text>
+      </g>
+      <!-- Chip 3 -->
+      <g transform="translate(208, 0)">
+        <rect width="92" height="24" rx="6" fill="#032F30" fill-opacity="0.7" stroke="#0A7075" stroke-width="0.7" />
+        <text x="46" y="16" text-anchor="middle" class="mono-code" font-size="9" font-weight="600" fill="#6BA3BE">TYPED API</text>
+      </g>
+      <!-- Chip 4 -->
+      <g transform="translate(308, 0)">
+        <rect width="94" height="24" rx="6" fill="#032F30" fill-opacity="0.7" stroke="#0C969C" stroke-width="0.8" />
+        <text x="47" y="16" text-anchor="middle" class="mono-code" font-size="9" font-weight="700" fill="#0C969C">SHIPPING ➔</text>
+      </g>
+    </g>
+  </g>
+</svg>

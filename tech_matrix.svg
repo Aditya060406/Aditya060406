@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="matrixBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#010A0A" />
+      <stop offset="50%" stop-color="#031716" />
+      <stop offset="100%" stop-color="#010D0E" />
+    </linearGradient>
+
+    <!-- Card Background -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#032527" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#021718" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Subtle Radial Glow -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0C969C" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#0C969C" stop-opacity="0" />
+    </radialGradient>
+
+    <style>
+      .mono-title { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; letter-spacing: 0.8px; }
+      .pill-text { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace; font-size: 10px; font-weight: 600; }
+      .tag-pill { fill: #032F30; stroke: #0A7075; stroke-width: 0.7; }
+    </style>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect width="950" height="240" rx="18" fill="url(#matrixBg)" stroke="#0A7075" stroke-width="1.2" stroke-opacity="0.35" />
+  <rect width="950" height="240" rx="18" fill="url(#centerGlow)" />
+
+  <!-- Header Strip -->
+  <g transform="translate(24, 18)">
+    <text x="0" y="12" class="mono-title" fill="#0C969C">
+      // TECHNICAL MATRIX &amp; STACK ARCHITECTURE
+    </text>
+    <text x="895" y="12" text-anchor="end" class="mono-title" fill="#6BA3BE" font-weight="500">
+      MODULAR // HIGH-EFFICIENCY // TESTED
+    </text>
+  </g>
+
+  <line x1="24" y1="38" x2="926" y2="38" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.3" />
+
+  <!-- 4 Balanced Architecture Columns -->
+  <!-- Column 1: Core Languages -->
+  <g transform="translate(24, 52)">
+    <rect width="215" height="170" rx="12" fill="url(#cardGrad)" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.4" />
+    <text x="14" y="24" class="mono-title" fill="#6BA3BE">01. LANGUAGES</text>
+
+    <!-- Skills List -->
+    <g transform="translate(14, 38)">
+      <!-- C++ -->
+      <g transform="translate(0, 0)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">C++ (STL / Modern)</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#0C969C" />
+      </g>
+      <!-- C -->
+      <g transform="translate(0, 29)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">C (Systems &amp; Memory)</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#6BA3BE" />
+      </g>
+      <!-- TypeScript -->
+      <g transform="translate(0, 58)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">TypeScript</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#0C969C" />
+      </g>
+      <!-- Python / JS -->
+      <g transform="translate(0, 87)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Python · JavaScript</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#6BA3BE" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Column 2: Frontend Engineering -->
+  <g transform="translate(251, 52)">
+    <rect width="215" height="170" rx="12" fill="url(#cardGrad)" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.4" />
+    <text x="14" y="24" class="mono-title" fill="#6BA3BE">02. FRONTEND</text>
+
+    <!-- Skills List -->
+    <g transform="translate(14, 38)">
+      <!-- React.js -->
+      <g transform="translate(0, 0)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">React.js Ecosystem</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#0C969C" />
+      </g>
+      <!-- Tailwind CSS -->
+      <g transform="translate(0, 29)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Tailwind CSS</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#6BA3BE" />
+      </g>
+      <!-- Modern UI/UX -->
+      <g transform="translate(0, 58)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Responsive UI / UX</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#0C969C" />
+      </g>
+      <!-- HTML5 & Web APIs -->
+      <g transform="translate(0, 87)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">HTML5 &amp; Web Standards</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#6BA3BE" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Column 3: Backend & Architecture -->
+  <g transform="translate(478, 52)">
+    <rect width="215" height="170" rx="12" fill="url(#cardGrad)" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.4" />
+    <text x="14" y="24" class="mono-title" fill="#6BA3BE">03. BACKEND &amp; APIS</text>
+
+    <!-- Skills List -->
+    <g transform="translate(14, 38)">
+      <!-- Node & Express -->
+      <g transform="translate(0, 0)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Node.js · Express</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#0C969C" />
+      </g>
+      <!-- RESTful APIs -->
+      <g transform="translate(0, 29)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">RESTful Architecture</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#6BA3BE" />
+      </g>
+      <!-- Python Backends -->
+      <g transform="translate(0, 58)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Django · Flask</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#0C969C" />
+      </g>
+      <!-- Middleware & Auth -->
+      <g transform="translate(0, 87)">
+        <rect width="187" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Middleware &amp; Auth</text>
+        <circle cx="173" cy="11.5" r="3.5" fill="#6BA3BE" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Column 4: Databases & DevOps -->
+  <g transform="translate(705, 52)">
+    <rect width="221" height="170" rx="12" fill="url(#cardGrad)" stroke="#0A7075" stroke-width="0.8" stroke-opacity="0.4" />
+    <text x="14" y="24" class="mono-title" fill="#6BA3BE">04. DATA &amp; DEVOPS</text>
+
+    <!-- Skills List -->
+    <g transform="translate(14, 38)">
+      <!-- PostgreSQL -->
+      <g transform="translate(0, 0)">
+        <rect width="193" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">PostgreSQL</text>
+        <circle cx="179" cy="11.5" r="3.5" fill="#0C969C" />
+      </g>
+      <!-- Redis -->
+      <g transform="translate(0, 29)">
+        <rect width="193" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Redis (Caching / Queues)</text>
+        <circle cx="179" cy="11.5" r="3.5" fill="#6BA3BE" />
+      </g>
+      <!-- Prisma ORM -->
+      <g transform="translate(0, 58)">
+        <rect width="193" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Prisma ORM · SQLite</text>
+        <circle cx="179" cy="11.5" r="3.5" fill="#0C969C" />
+      </g>
+      <!-- Docker & Git -->
+      <g transform="translate(0, 87)">
+        <rect width="193" height="23" rx="5" class="tag-pill" />
+        <text x="10" y="15" class="pill-text" fill="#E8F6F8">Docker · Git CI/CD</text>
+        <circle cx="179" cy="11.5" r="3.5" fill="#6BA3BE" />
+      </g>
+    </g>
+  </g>
+</svg>
