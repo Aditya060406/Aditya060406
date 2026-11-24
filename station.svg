@@ -49,7 +49,7 @@
       }
       .mono-code { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
       .sans-ui { font-family: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .pulse-dot { animation: pulseGlow 2.2s infinite ease-in-out; transform-origin: 28px 24px; }
+      .pulse-dot { animation: pulseGlow 2.2s infinite ease-in-out; transform-origin: 12px 12px; }
       .steam-1 { animation: steamRise 2s infinite ease-out; }
       .steam-2 { animation: steamRise 2s infinite ease-out 0.6s; }
       .wb-1 { animation: waveBar 1.2s infinite ease-in-out; }
@@ -67,25 +67,20 @@
   <rect x="0" y="0" width="450" height="370" rx="18" fill="url(#mistGlow)" />
   <rect x="500" y="0" width="450" height="370" rx="18" fill="url(#tealGlow)" />
 
-  <!-- ================= TOP CONSOLE HEADER BAR ================= -->
+  <!-- ================= TOP CONSOLE HEADER BAR (NO WINDOW DOTS, NO OVERLAP) ================= -->
   <g transform="translate(24, 20)">
     <!-- Status Beacon LED -->
     <circle cx="6" cy="6" r="4.5" fill="#0C969C" class="pulse-dot" />
     <circle cx="6" cy="6" r="2.5" fill="#E8F6F8" />
 
-    <!-- Terminal Window Dots -->
-    <circle cx="28" cy="6" r="4" fill="#0A7075" opacity="0.6" />
-    <circle cx="42" cy="6" r="4" fill="#032F30" stroke="#0C969C" stroke-width="0.8" opacity="0.8" />
-    <circle cx="56" cy="6" r="4" fill="#6BA3BE" opacity="0.6" />
-
     <!-- Title Badge -->
-    <text x="76" y="10" class="mono-code" font-size="12" font-weight="700" fill="#E8F6F8" letter-spacing="1">
-      ADITYA // DEV-STATION <tspan fill="#0C969C">[ACTIVE]</tspan>
+    <text x="22" y="10" class="mono-code" font-size="12" font-weight="700" fill="#E8F6F8" letter-spacing="1">
+      ADITYA // DEV-STATION <tspan fill="#0C969C">[ONLINE]</tspan>
     </text>
 
-    <!-- Subtitle Spec -->
-    <text x="310" y="10" class="mono-code" font-size="10.5" font-weight="500" fill="#6BA3BE">
-      NODE: workstation.local // ENV: production // KERNEL: c++20-stl
+    <!-- Subtitle Spec (Well spaced) -->
+    <text x="320" y="10" class="mono-code" font-size="10.5" font-weight="500" fill="#6BA3BE">
+      PROFILE SPEC // C++20 // FULL-STACK ARCHITECTURE
     </text>
 
     <!-- Cozy Audio Equalizer & Fuel Pill (Right Aligned) -->
@@ -212,7 +207,7 @@
 
     <!-- Gauge 4: Clean Architecture -->
     <g transform="translate(18, 164)">
-      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#E8F6F8">Clean Code &amp; Continuous Delivery</text>
+      <text x="0" y="12" class="mono-code" font-size="10.5" font-weight="600" fill="#E8F6F8">Clean Code &amp; System Performance</text>
       <text x="365" y="12" class="mono-code" font-size="10" font-weight="700" fill="#0C969C">96%</text>
       <rect x="0" y="18" width="402" height="7" rx="3.5" fill="#031716" stroke="#0A7075" stroke-width="0.5" />
       <rect x="0" y="18" width="386" height="7" rx="3.5" fill="url(#barGrad)" />
@@ -238,7 +233,7 @@
       <!-- Chip 4 -->
       <g transform="translate(308, 0)">
         <rect width="94" height="24" rx="6" fill="#032F30" fill-opacity="0.7" stroke="#0C969C" stroke-width="0.8" />
-        <text x="47" y="16" text-anchor="middle" class="mono-code" font-size="9" font-weight="700" fill="#0C969C">SHIPPING ➔</text>
+        <text x="47" y="16" text-anchor="middle" class="mono-code" font-size="9" font-weight="700" fill="#0C969C">ONLINE ➔</text>
       </g>
     </g>
   </g>
